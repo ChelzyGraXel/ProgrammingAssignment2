@@ -16,5 +16,22 @@ For the next step, I did not directly input the derived mean and standard deviat
 #### Step 5: Save the ndArray as X_normalized.npy
 Last but not least, to save the ndArray to X_normalized.np, the "np.save('X_normalized.npy', X_normalized)". In order to print the results, the syntax "np.load('X_normalized.npy') was used.
 
+## Divisible By 3 Problem
+#### Step 1: Importing the NumPy Library
+Firstly, I have imported numpy as np in order to gain access to the NumPy library.
 
+#### Step 2: Generate the First 100 Positive Integers
+The variable namely "num" contains all the positive integers from 1 to 100 and are all arranged in ascending order.
+
+#### Step 3: Calculate for the Squares of each Integer
+The variable namely "squaredNum" calculates for the squares of each integer in the array. The utilization of two asterisks indicates a exponential function. The "num**2" is num raised to the power of 2.
+
+#### Step 4: Storing the Calculated Squares
+The task was to store the computed values of squared integers into a 10 by 10 array. In order to do that, the syntax used was ".reshape((rows,columns))" and there are 10 rows and 10 columns.
+
+#### Step 5: Check for Values Divisible by 3
+Using a modulo %, it will solve for the remainder of each squared integer when divided by 3. If the remainder will be equal to zero, it will store the squared integer value to a variable named "multiplesOf3". In order to check all the values in the array A, another variable is named div_by_3 and it stores all the values of multipleof3 to a new array.
+
+#### Step 6: Save the ndArray as div_by_3.npy
+Last but not least, to save the ndArray to div_by_3.npy, the "np.save('div_by_3.npy', div_by_3)". In order to print the results, the syntax "np.load('div_by_3.npy') was used.
 
